@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+
+   width: 250px;
+   height: 350px;
+   border:2px solid rgb(18, 50, 117);
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 80px;
+   background-color: rgb(18, 50, 117);
+   box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 15px ;
+
+}
+.display{
+
+        width:150px;
+        height: 150px;
+        border: 2px solid wheat;
+        border-radius: 50%;
+        margin:auto;
+        margin-top:20px;
+        
+}
+.temperature{
+
+  margin:auto;
+  font-size:xx-large;
+  color:wheat;
+  margin-left: 35px;
+  margin-top: 45px;
+  font-weight: 500;
+  
+}
+
+.buttons{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.buttons button{
+
+  width: 50px;
+  height: 50px;
+  border: 2px solid wheat;
+  border-radius: 50%;
+  background-color: rgb(95, 90, 90);
+  font-size:x-large;
+  color: wheat;
+
+}
+button:hover{
+  background-color: rgb(139, 137, 133);
+}
+
+.cold{
+  background-color: rgb(103, 103, 245);
+}
+
+.hot{
+  background-color: rgb(247, 137, 34);
+}
